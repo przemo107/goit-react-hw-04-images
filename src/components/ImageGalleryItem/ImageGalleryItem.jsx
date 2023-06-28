@@ -1,6 +1,6 @@
 import css from './ImageGalleryItem.module.css';
 
-export const ImageGalleryItem = ({ id, imgSrc, openModal, largeIgSrc }) => {
+export const ImageGalleryItem = ({ id, imgSrc, openModal, largeImgSrc }) => {
   return (
     <li className={css.imageGalleryItem}>
       <img
